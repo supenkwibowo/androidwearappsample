@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sample.androidwear.notificationsample.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin">
+
+        <Button
+            android:id="@+id/button_basic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Notification"/>
+
+        <Button
+            android:id="@+id/button_action"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification With Action Button"/>
+
+        <Button
+            android:id="@+id/button_background"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification With Background"/>
+
+        <Button
+            android:id="@+id/button_picture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification With Picture"/>
+
+        <Button
+            android:id="@+id/button_voice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification With Voice Input"/>
+
+        <Button
+            android:id="@+id/button_pages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Notification With Pages"/>
+
+        <Button
+            android:id="@+id/button_grouped"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Grouped Notification"/>
+
+    </LinearLayout>
+
+</ScrollView>
