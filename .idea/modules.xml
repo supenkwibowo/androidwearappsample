@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AndroidWearSample.iml" filepath="$PROJECT_DIR$/AndroidWearSample.iml" />
       <module fileurl="file://$PROJECT_DIR$/notificationsample/notificationsample.iml" filepath="$PROJECT_DIR$/notificationsample/notificationsample.iml" />
-      <module fileurl="file://$PROJECT_DIR$/samplemobilewearapp/samplemobilewearapp.iml" filepath="$PROJECT_DIR$/samplemobilewearapp/samplemobilewearapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/samplewatchapp/samplewatchapp.iml" filepath="$PROJECT_DIR$/samplewatchapp/samplewatchapp.iml" />
     </modules>
   </component>

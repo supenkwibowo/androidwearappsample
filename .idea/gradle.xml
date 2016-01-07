@@ -11,7 +11,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/notificationsample" />
-            <option value="$PROJECT_DIR$/samplemobilewearapp" />
             <option value="$PROJECT_DIR$/samplewatchapp" />
           </set>
         </option>

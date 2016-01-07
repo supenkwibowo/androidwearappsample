@@ -1,5 +1,6 @@
 package com.sample.androidwear.samplewatchapp;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.support.wearable.activity.WearableActivity;
 import android.support.wearable.view.GridViewPager;
@@ -23,6 +24,18 @@ public class MainActivity extends WearableActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        mPager.setBackgroundColor(SettingsPrefUtils.getColor(this));
+    }
+
+    @Override
+    public void onEnterAmbient(Bundle ambientDetails) {
+        super.onEnterAmbient(ambientDetails);
+        mPager.setBackgroundColor(Color.BLACK);
+    }
+
+    @Override
+    public void onExitAmbient() {
+        super.onExitAmbient();
         mPager.setBackgroundColor(SettingsPrefUtils.getColor(this));
     }
 }
