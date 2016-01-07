@@ -1,1 +1,1 @@
-include ':notificationsample'
+include ':notificationsample', ':samplewatchapp', ':samplemobilewearapp'
